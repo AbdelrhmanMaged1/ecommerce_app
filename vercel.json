@@ -13,8 +13,8 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://YOUR_VERCEL_URL.vercel.app",
-        "APP_KEY": "base64:YOUR_APP_KEY_HERE",
+        "APP_URL": "https://ecommerce-app-git-main-abdelrahmans-projects-c22d27db.vercel.app/",
+        "APP_KEY": "base64:XLOFcQFQhoIeyIga5AJruQkErijdWLfhVYLcbq/uXbs=",
         "DB_CONNECTION": "pgsql",
         "SESSION_DRIVER": "cookie"
     }
