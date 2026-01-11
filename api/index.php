@@ -1,2 +1,12 @@
 <?php
-require __DIR__ . '/../public/index.php';
+
+use Illuminate\Http\Request;
+
+define('LARAVEL_START', microtime(true));
+
+// Adjust paths to point to the parent directory
+require __DIR__ . '/../vendor/autoload.php';
+
+$app = require_once __DIR__ . '/../bootstrap/app.php';
+
+$app->handleRequest(Request::capture());
